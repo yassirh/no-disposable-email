@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+const { isDisposable } = require('../utility');
+
+const email = process.argv[2];
+if (!email) {
+  console.error('Usage: no-disposable-email <email>');
+  process.exit(1);
+}
+const result = isDisposable(email);
+console.log(JSON.stringify({ email, disposable: result }, null, 2));

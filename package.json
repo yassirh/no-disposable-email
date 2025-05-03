@@ -1,0 +1,28 @@
+{
+  "name": "no-disposable-email",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "no-disposable-email": "bin/no-disposable-email"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "api": "node index.js",
+    "test": "jest",
+    "update-blocklist": "node scripts/update-blocklist.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
