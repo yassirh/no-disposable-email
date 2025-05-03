@@ -9,6 +9,7 @@ A fast, reliable tool to check if an email address uses a disposable domain. Inc
 
 ## Table of Contents
 - [Features](#features)
+- [Demo](@demo)
 - [Installation](#installation)
 - [Usage](#usage)
   - [API](#api)
@@ -27,6 +28,13 @@ A fast, reliable tool to check if an email address uses a disposable domain. Inc
 - 🧩 Utility: `isDisposable(email)`
 - 🐳 Docker support
 - ⚡ Domains are regularly updated from https://github.com/disposable-email-domains/disposable-email-domains/blob/main/disposable_email_blocklist.conf
+
+---
+
+## Demo
+
+Try it online:  
+[Is Disposable Email](https://uptimeobserver.com/api/free-tools/is-disposable-email?email=foo@mailinator.com)
 
 ---
 
@@ -113,6 +121,9 @@ You can copy, modify, distribute and use the work, even for commercial purposes,
 
 [![Licensed under CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/) 
 
+---
+
 ## Changelog
-1.0.0 - Initial commit 
+1.0.1 - Updated README
+1.0.0 - Initial commit
 
