@@ -34,7 +34,8 @@ A fast, reliable tool to check if an email address uses a disposable domain. Inc
 ## Demo
 
 Try it online:  
-[Is Disposable Email](https://uptimeobserver.com/api/free-tools/is-disposable-email?email=foo@mailinator.com)
+[Is Disposable Email API](https://uptimeobserver.com/api/free-tools/is-disposable-email?email=foo@mailinator.com) or 
+[Is Disposable Email GUI](http://uptimeobserver.com/free-tools/disposable-email-checker/)
 
 ---
 
@@ -93,6 +94,19 @@ console.log(isDisposable('foo@mailinator.com')); // true or false
 ---
 
 ## Docker
+
+
+### Running with Docker
+
+To run the service using Docker:
+
+Start the container, mapping port 3000 inside the container to port 3000 on your host:
+   ```sh
+   docker run -d -p 3000:3000 yassirh/no-disposable-email
+   ```
+
+The API will be available at: [http://localhost:3000/check?email=foo@mailinator.com](http://localhost:3000/check?email=foo@mailinator.com)
+
 ### Build and run with Docker:
 ```sh
 docker build -t no-disposable-email .
