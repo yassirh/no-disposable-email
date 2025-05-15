@@ -93,12 +93,33 @@ console.log(isDisposable('foo@mailinator.com')); // true or false
 ---
 
 ## Docker
-Build and run with Docker:
+### Build and run with Docker:
 ```sh
 docker build -t no-disposable-email .
 
 docker run -p 3000:3000 no-disposable-email
 ```
+
+### Multi-Architecture Image for Docker Hub
+To build and push a multi-architecture image to Docker Hub:
+```sh
+
+docker buildx create --use
+# Build for amd64, arm64, and arm/v7 (Raspberry Pi, etc)
+docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t yassirh/no-disposable-email:latest --push .
+```
+
+---
+
+## Updating the Blocklist
+
+To update the list of disposable domains to the latest version from the official source, run:
+
+```sh
+npm run update-blocklist
+```
+
+This will download the latest `disposable_email_blocklist.conf` from the upstream repository.
 
 ---
 
@@ -123,7 +144,4 @@ You can copy, modify, distribute and use the work, even for commercial purposes,
 
 ---
 
-## Changelog
-1.0.1 - Updated README
-1.0.0 - Initial commit
 
