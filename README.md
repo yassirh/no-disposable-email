@@ -1,7 +1,7 @@
 # no-disposable-email
 
 [![npm version](https://img.shields.io/npm/v/no-disposable-email.svg?style=flat)](https://www.npmjs.com/package/no-disposable-email)
-[![Docker](https://img.shields.io/badge/docker-ready-blue)](https://hub.docker.com/)
+[![Docker](https://img.shields.io/badge/docker-ready-blue)](https://hub.docker.com/r/yassirh/no-disposable-email)
 
 A fast, reliable tool to check if an email address uses a disposable domain. Includes an Express API, CLI, and utility function. Perfect for validation in web apps, and scripts.
 
@@ -90,6 +90,23 @@ const { isDisposable } = require('no-disposable-email');
 
 console.log(isDisposable('foo@mailinator.com')); // true or false
 ```
+
+### Heartbeat Endpoint
+
+A simple health check endpoint is available:
+
+```sh
+GET /heartbeat
+```
+
+Response:
+```json
+{
+  "status": "ok"
+}
+```
+
+You can use this to verify the service is running (e.g., for Docker health checks or uptime monitoring).
 
 ---
 

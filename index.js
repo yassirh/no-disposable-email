@@ -20,6 +20,10 @@ app.get('/check', (req, res) => {
   });
 });
 
+app.get('/heartbeat', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 const server = app.listen(port, () => {
   console.log(`Disposable domain API listening at http://localhost:${port}`);
 });
