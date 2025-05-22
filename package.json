@@ -11,10 +11,25 @@
     "test": "jest",
     "update-blocklist": "node scripts/update-blocklist.js"
   },
-  "keywords": [],
+  "keywords": [
+    "disposable-email-detector",
+    "disposable-email-checker",
+    "email-detector",
+    "email-checker",
+    "disposable",
+    "email",
+    "detector",
+    "checker",
+    "email-validation",
+    "disposable-email"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yassirh/no-disposable-email"
+	},
   "author": "",
   "license": "CC0-1.0",
-  "description": "",
+  "description": "A fast, reliable tool to check if an email address uses a disposable domain. Includes an Express API, CLI, and utility function. Perfect for validation in web apps, and scripts.",
   "dependencies": {
     "express": "^5.1.0"
   },
