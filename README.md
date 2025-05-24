@@ -1,5 +1,6 @@
 # no-disposable-email
 
+[![CI](https://github.com/yassirh/no-disposable-email/actions/workflows/ci.yml/badge.svg)](https://github.com/yassirh/no-disposable-email/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/no-disposable-email.svg?style=flat)](https://www.npmjs.com/package/no-disposable-email)
 ![NPM Downloads](https://img.shields.io/npm/dt/no-disposable-email?logo=npm)
 [![Docker](https://img.shields.io/badge/docker-ready-blue)](https://hub.docker.com/r/yassirh/no-disposable-email)
