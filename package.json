@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/yassirh/no-disposable-email"
-	},
+  },
   "author": "",
   "license": "CC0-1.0",
   "description": "A fast, reliable tool to check if an email address uses a disposable domain. Includes an Express API, CLI, and utility function. Perfect for validation in web apps, and scripts.",
@@ -34,7 +34,7 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^30.0.4",
     "supertest": "^7.1.0"
   },
   "jest": {
