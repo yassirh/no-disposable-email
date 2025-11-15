@@ -139,8 +139,8 @@ To build and push a multi-architecture image to Docker Hub:
 ```sh
 
 docker buildx create --use
-# Build for amd64, arm64, and arm/v7 (Raspberry Pi, etc)
-docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t yassirh/no-disposable-email:latest --push .
+# Build for amd64 and arm64 v8
+docker buildx build --platform linux/amd64,linux/arm64/v8 -t yassirh/no-disposable-email:latest --push .
 ```
 
 ---
