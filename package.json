@@ -1,6 +1,6 @@
 {
   "name": "no-disposable-email",
-  "version": "1.0.20251122",
+  "version": "1.0.20251213",
   "main": "index.js",
   "bin": {
     "no-disposable-email": "bin/no-disposable-email"
