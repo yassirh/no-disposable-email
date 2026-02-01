@@ -38,7 +38,7 @@ A fast, reliable tool to check if an email address uses a disposable domain. Inc
 Try it online ![UptimeObserver uptime ratio (30 days)](https://img.shields.io/uptimeobserver/ratio/6528ee0f46f74cc2b71a9b89550da0141985)
 :  
 [Is Disposable Email API](https://uptimeobserver.com/api/free-tools/is-disposable-email?email=foo@mailinator.com)  or 
-[Is Disposable Email GUI](http://uptimeobserver.com/free-tools/disposable-email-checker/)
+[Is Disposable Email GUI](https://uptimeobserver.com/free-tools/disposable-email-checker/)
 
 ---
 
