@@ -1,6 +1,6 @@
 {
   "name": "no-disposable-email",
-  "version": "1.0.20260831",
+  "version": "1.0.20260925",
   "main": "index.js",
   "bin": {
     "no-disposable-email": "bin/no-disposable-email"
@@ -39,5 +39,9 @@
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "unrs-resolver@1.11.1": true
   }
 }
