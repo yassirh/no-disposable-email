@@ -1,6 +1,6 @@
 {
   "name": "no-disposable-email",
-  "version": "1.0.20261009",
+  "version": "1.0.20261016",
   "main": "index.js",
   "bin": {
     "no-disposable-email": "bin/no-disposable-email"
@@ -42,6 +42,7 @@
   },
   "allowScripts": {
     "fsevents@2.3.3": true,
-    "unrs-resolver@1.11.1": true
+    "unrs-resolver@1.12.2": true,
+    "@parcel/watcher@2.6.0": true
   }
 }
