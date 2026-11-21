@@ -1,6 +1,6 @@
 {
   "name": "no-disposable-email",
-  "version": "1.0.20261102",
+  "version": "1.0.20261121",
   "main": "index.js",
   "bin": {
     "no-disposable-email": "bin/no-disposable-email"
@@ -36,6 +36,12 @@
   "devDependencies": {
     "jest": "^30.0.4",
     "supertest": "^7.1.0"
+  },
+  "overrides": {
+    "jest": {
+      "glob": "14.0.6",
+      "minimatch": "11.0.8"
+    }
   },
   "jest": {
     "testEnvironment": "node"
